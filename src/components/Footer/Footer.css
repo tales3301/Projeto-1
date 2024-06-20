@@ -1,0 +1,11 @@
+.containerFooter {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerFooter p {
+  padding-top: 1rem;
+  color: #727272;
+}

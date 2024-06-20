@@ -1,0 +1,69 @@
+.containerCards {
+  max-width: 1360px;
+}
+.containerCards .grid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 1.3rem;
+  padding: 2rem 0 0 0;
+}
+.containerCards .grid h1 {
+  color: #525252;
+  padding: 1rem 0 1rem 0.5rem;
+  font-size: 2.5rem;
+}
+.containerCards .grid .primeiraLinha {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+@media (max-width: 1366px) {
+  .containerCards .grid .primeiraLinha {
+    width: 95%;
+    place-self: center;
+  }
+  .containerCards .grid h1 {
+    margin: 0 1.4rem;
+  }
+}
+@media (max-width: 1000px) {
+  .containerCards {
+    width: 95%;
+  }
+
+  .containerCards .grid .primeiraLinha {
+    width: 95%;
+    place-self: center;
+  }
+  .containerCards .grid h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 700px) {
+  .containerCards {
+    width: 95%;
+  }
+
+  .containerCards .grid h1 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 365px) {
+  .containerCards {
+    width: 95%;
+  }
+  
+  .containerCards .grid h1 {
+    font-size: 2.1rem;
+    margin: 0 0.5rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .containerCards {
+    max-width: 2100px;
+    width: 1625px;
+  }
+}

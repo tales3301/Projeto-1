@@ -1,0 +1,53 @@
+.containerTelaHome {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+@media (max-width: 1000px) {
+  .containerTelaHome {
+    display: flex;
+    max-width: 1360px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .containerTelaHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    min-height: 18vh;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1380px) {
+  .containerTelaHome {
+    margin: 1rem 4rem 0 4rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .containerTelaHome {
+    margin-right: 10px;
+    margin-left: 110px;
+    max-width: 2100px;
+    width: 1625px;
+  }
+}
+
+@media (max-width: 400px) {
+  .containerTelaHome {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
